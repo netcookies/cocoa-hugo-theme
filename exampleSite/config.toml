@@ -10,6 +10,7 @@ title = "Arthur Dent"
 pygmentsuseclasses = true
 disqusshortname = "cocoaexamplesite" # Comment out to disable Disqus.
 pluralizelisttitles = false
+hasCJKLanguage = true
 
 [permalinks]
 fixed = ":title/"
@@ -24,7 +25,10 @@ dateform = "Jan 2, 2006"
 dateformfull = "Mon Jan 2 2006 15:04:05 MST"
 description = "Don't panic"
 email = "you@example.space"
-faviconfile = "img/leaf.ico"
+#faviconfile = "img/leaf.ico" # DEPRECATED
+faviconpath = "//yourdoamin.com" 
+# if use CUSTNAME set this to your domain root path, and put favicons file in this path. or just use the same as baseurl
+# use this site generate favicon files https://realfavicongenerator.net/
 gatracker = "XYZ"
 github = "//github.com/you"
 highlightjs = true
