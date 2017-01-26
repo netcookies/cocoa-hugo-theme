@@ -183,8 +183,7 @@ section.header .content {
 section.header .container .content .avatar {
   max-width: 100px;
 }
-section.header .name, 
-section.header nav:before {
+section.header .name {
   font-size: 18px;
   font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;
   letter-spacing: -0.005rem;
@@ -196,16 +195,8 @@ section.header nav:before {
   color: #333333;
   color: #555555;
 }
-@media (min-width: 550px) {
-  section.header nav:before {
-    content: "Isulew / ";
-    font-size: 14px;
-    display: -webkit-inline-flex;
-    display: -moz-inline-flex;
-    display: -ms-inline-flexbox;
-    display: -ms-inline-flex;
-    display: inline-flex;
-  }
+section.header nav .name {
+  font-size: 14px;
 }
 section.header nav {
   font-size: 14px;
