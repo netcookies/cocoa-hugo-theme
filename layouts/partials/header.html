@@ -11,9 +11,9 @@
             {{ if .Site.Params.gravatar }}
               <a href="/"><img class="avatar" src="https://gravatar.com/avatar/{{ .Site.Params.gravatar }}?s=50" /></a>
             {{ else if .Site.Params.avatar }}
-              <a href="/"><img class="avatar small-screens-only" src="/{{ .Site.Params.avatar }}" /></a>
+              <a href="/"><img class="avatar" src="/{{ .Site.Params.avatar }}" /></a>
             {{ end }}
-            <a href="/"><div class="name">{{ .Site.Params.author }}</div></a>
+            <a href="/"><div class="name small-screens-only">{{ .Site.Params.author }}</div></a>
             <nav>
                 <ul>
                     <a href="/"><li>Blog</li></a>
