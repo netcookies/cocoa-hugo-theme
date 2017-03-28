@@ -269,6 +269,16 @@ section.header nav ul a:hover {
 	section.header nav ul a {
 		color: #666;
 	}
+	section.header nav ul li {
+		padding-top: 4px;
+	}
+	section.header nav ul li.name {
+		padding-top: 0;
+		font-size: 18px;
+	}
+	section.header nav ul li.name a {
+		font-weight: bold;
+	}
 	section.header nav ul a:hover {
 		color: #333;
 	}
