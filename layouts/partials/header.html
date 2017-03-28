@@ -20,9 +20,9 @@
             <a href="/"><div class="name small-screens-only">{{ .Site.Params.author }}</div></a>
             <nav>
                 <ul>
+                    <li class="name large-screens-only"><a href="/">{{ .Site.Params.author }} / </a></li>
                     {{ range .Site.Menus.main }}
                         <li class="nav-{{ .Identifier }}"><a href="{{ .URL }}">{{ .Pre }}<span>{{ .Name }}</span></a></li>
-                    <a href="/"><li class="name large-screens-only">{{ .Site.Params.author }} / </li></a>
                     {{ end }}
                 </ul>
             </nav>
